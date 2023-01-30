@@ -1,5 +1,7 @@
 # Kontent.ai Delivery Dynamic Extensions
 
+ [![NuGet](https://img.shields.io/nuget/v/Simply007.Kontent.Ai.Delivery.Extensions.Dynamic.svg)](https://www.nuget.org/packages/Simply007.Kontent.Ai.Delivery.Extensions.Dynamic)
+
 Extensions allowing to work with non-typed response from Kontent.ai Delivery API SDK for .NET.
 
 ## Get started
