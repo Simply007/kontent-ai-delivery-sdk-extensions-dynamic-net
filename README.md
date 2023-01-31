@@ -14,7 +14,7 @@ dotnet add Simply007.Kontent.Ai.Delivery.Extensions.Dynamic
 
 ## Usage
 
-### `GetElementValue` usage
+### `IDeliveryItemResponse.GetElementValue` usage
 
 ```csharp
 
