@@ -22,7 +22,7 @@ var response = await client.GetItemAsync<object>("text_element_item");
 
 var textElementValue = response.GetElementValue<string>("text_element");
 var numberElementValue = response.GetElementValue<decimal>("number_element");
-var customElementValue = response.GetElementValue<string>("text_element");
+var customElementValue = response.GetElementValue<string>("custom_element");
 var urlSlugElementValue = response.GetElementValue<string>("richText_element");
 
 // TBD:

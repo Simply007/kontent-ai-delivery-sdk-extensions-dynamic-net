@@ -53,5 +53,14 @@ namespace Simply007.Kontent.Ai.Delivery.Extensions.Dynamic
             var element = response.GetElementValue<decimal>("number_element");
             element.Should().Be(42);
         }
+
+                [Fact]
+        public async Task GetElementValue_CustomElement_ReturnsCorrectValue()
+        {
+            var response = await _client.GetItemAsync<object>(itemCodename);
+
+            var element = response.GetElementValue<string>("custom_element");
+            element.Should().Be("Test value");
+        }
     }
 }
