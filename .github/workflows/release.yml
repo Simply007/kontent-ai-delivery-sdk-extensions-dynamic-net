@@ -16,7 +16,7 @@ jobs:
           dotnet-version: 6.0.x
       - name: Extract version from tag
         id: get_version
-        uses: battila7/get-version-action@v2
+        uses: Simply007/get-version-action@v2
       - name: Restore dependencies
         run: dotnet restore
       - name: Build
