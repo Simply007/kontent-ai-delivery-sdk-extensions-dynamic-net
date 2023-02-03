@@ -1,0 +1,248 @@
+{
+  "item": {
+    "system": {
+      "id": "b5a9c5bd-60d9-47d8-8adf-97d139289e96",
+      "name": "Sample item",
+      "codename": "sample_item",
+      "language": "default",
+      "type": "complex_item",
+      "collection": "default",
+      "sitemap_locations": [],
+      "last_modified": "2023-02-03T11:22:32.1977845Z",
+      "workflow_step": "published"
+    },
+    "elements": {
+      "text_element": {
+        "type": "text",
+        "name": "text element",
+        "value": "Ut tincidunt tincidunt erat"
+      },
+      "number_element": {
+        "type": "number",
+        "name": "number element",
+        "value": 42
+      },
+      "multiple_choice_element": {
+        "type": "multiple_choice",
+        "name": "Multiple choice element",
+        "value": [
+          {
+            "name": "Second",
+            "codename": "second"
+          },
+          {
+            "name": "Third",
+            "codename": "third"
+          }
+        ]
+      },
+      "date_time_element": {
+        "type": "date_time",
+        "name": "Date time element",
+        "value": "1991-07-23T22:00:00Z",
+        "display_timezone": "Europe/Prague"
+      },
+      "asset_element": {
+        "type": "asset",
+        "name": "Asset element",
+        "value": [
+          {
+            "name": "Grouped1.png",
+            "description": null,
+            "type": "image/png",
+            "size": 23736,
+            "url": "https://assets-eu-01.kc-usercontent.com:443/247bf4c8-ac68-01de-3477-0fd61185a73a/b9bf257d-48ab-4a91-b8e8-1686d1440062/Grouped1.png",
+            "width": 450,
+            "height": 450,
+            "renditions": {}
+          },
+          {
+            "name": "Grouped2.png",
+            "description": null,
+            "type": "image/png",
+            "size": 25577,
+            "url": "https://assets-eu-01.kc-usercontent.com:443/247bf4c8-ac68-01de-3477-0fd61185a73a/b955f8ca-09c5-4d43-8090-733553c31efa/Grouped2.png",
+            "width": 450,
+            "height": 450,
+            "renditions": {}
+          }
+        ]
+      },
+      "linked_items_element": {
+        "type": "modular_content",
+        "name": "Linked items element",
+        "value": [
+          "text_element_item"
+        ]
+      },
+      "rich_text_element": {
+        "type": "rich_text",
+        "name": "Rich text element",
+        "images": {
+          "11158702-ce78-4d80-bc6b-32c03d76e523": {
+            "image_id": "11158702-ce78-4d80-bc6b-32c03d76e523",
+            "description": null,
+            "url": "https://assets-eu-01.kc-usercontent.com:443/247bf4c8-ac68-01de-3477-0fd61185a73a/b955f8ca-09c5-4d43-8090-733553c31efa/Grouped2.png",
+            "width": 450,
+            "height": 450
+          }
+        },
+        "links": {
+          "4ba847a7-26e9-4ed0-9260-79afa466330b": {
+            "codename": "text_element_item",
+            "type": "text_element_item",
+            "url_slug": ""
+          }
+        },
+        "modular_content": [],
+        "value": "\u003Cp\u003EThis is a \u003Cstrong\u003ERich text element value with a \u003C/strong\u003E\u003Ca data-item-id=\u00224ba847a7-26e9-4ed0-9260-79afa466330b\u0022 href=\u0022\u0022\u003Elink to the content item\u003C/a\u003E and link \u003Ca data-asset-id=\u0022be30fbe7-3889-4e52-be38-7878648d7276\u0022 href=\u0022https://assets-eu-01.kc-usercontent.com:443/247bf4c8-ac68-01de-3477-0fd61185a73a/b9bf257d-48ab-4a91-b8e8-1686d1440062/Grouped1.png\u0022\u003Eto image\u003C/a\u003E and \u003Ca data-asset-id=\u002264937196-f7de-40ed-b568-52629a4a424f\u0022 href=\u0022https://assets-eu-01.kc-usercontent.com:443/247bf4c8-ac68-01de-3477-0fd61185a73a/32a07e1c-b59c-4580-ab10-e85064b8dff9/D%20L%20NA.txt\u0022\u003Easset\u003C/a\u003E.\u003C/p\u003E\n\u003Cp\u003EList:\u0026nbsp;\u003C/p\u003E\n\u003Cul\u003E\n  \u003Cli\u003EFirst\u003C/li\u003E\n  \u003Cli\u003ESecond\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cfigure data-asset-id=\u002211158702-ce78-4d80-bc6b-32c03d76e523\u0022 data-image-id=\u002211158702-ce78-4d80-bc6b-32c03d76e523\u0022\u003E\u003Cimg src=\u0022https://assets-eu-01.kc-usercontent.com:443/247bf4c8-ac68-01de-3477-0fd61185a73a/b955f8ca-09c5-4d43-8090-733553c31efa/Grouped2.png\u0022 data-asset-id=\u002211158702-ce78-4d80-bc6b-32c03d76e523\u0022 data-image-id=\u002211158702-ce78-4d80-bc6b-32c03d76e523\u0022 alt=\u0022\u0022\u003E\u003C/figure\u003E\n\u003Ctable\u003E\u003Ctbody\u003E\n  \u003Ctr\u003E\u003Ctd\u003ECol1\u003C/td\u003E\u003Ctd\u003ECol2\u003C/td\u003E\u003Ctd\u003ECol3\u003C/td\u003E\u003C/tr\u003E\n  \u003Ctr\u003E\u003Ctd\u003ERow1\u003C/td\u003E\u003Ctd\u003ERow2\u003C/td\u003E\u003Ctd\u003ERow3\u003C/td\u003E\u003C/tr\u003E\n\u003C/tbody\u003E\u003C/table\u003E\n\u003Cp\u003E\u003Cbr\u003E\u003C/p\u003E"
+      },
+      "subpages_element": {
+        "type": "modular_content",
+        "name": "Subpages element",
+        "value": [
+          "sample_item"
+        ]
+      },
+      "url_slug_element": {
+        "type": "url_slug",
+        "name": "URL slug element",
+        "value": "ut-tincidunt-tincidunt-erat"
+      }
+    }
+  },
+  "modular_content": {
+    "sample_item": {
+      "system": {
+        "id": "b5a9c5bd-60d9-47d8-8adf-97d139289e96",
+        "name": "Sample item",
+        "codename": "sample_item",
+        "language": "default",
+        "type": "complex_item",
+        "collection": "default",
+        "sitemap_locations": [],
+        "last_modified": "2023-02-03T11:22:32.1977845Z",
+        "workflow_step": "published"
+      },
+      "elements": {
+        "text_element": {
+          "type": "text",
+          "name": "text element",
+          "value": "Ut tincidunt tincidunt erat"
+        },
+        "number_element": {
+          "type": "number",
+          "name": "number element",
+          "value": 42
+        },
+        "multiple_choice_element": {
+          "type": "multiple_choice",
+          "name": "Multiple choice element",
+          "value": [
+            {
+              "name": "Second",
+              "codename": "second"
+            },
+            {
+              "name": "Third",
+              "codename": "third"
+            }
+          ]
+        },
+        "date_time_element": {
+          "type": "date_time",
+          "name": "Date time element",
+          "value": "1991-07-23T22:00:00Z",
+          "display_timezone": "Europe/Prague"
+        },
+        "asset_element": {
+          "type": "asset",
+          "name": "Asset element",
+          "value": [
+            {
+              "name": "Grouped1.png",
+              "description": null,
+              "type": "image/png",
+              "size": 23736,
+              "url": "https://assets-eu-01.kc-usercontent.com:443/247bf4c8-ac68-01de-3477-0fd61185a73a/b9bf257d-48ab-4a91-b8e8-1686d1440062/Grouped1.png",
+              "width": 450,
+              "height": 450,
+              "renditions": {}
+            },
+            {
+              "name": "Grouped2.png",
+              "description": null,
+              "type": "image/png",
+              "size": 25577,
+              "url": "https://assets-eu-01.kc-usercontent.com:443/247bf4c8-ac68-01de-3477-0fd61185a73a/b955f8ca-09c5-4d43-8090-733553c31efa/Grouped2.png",
+              "width": 450,
+              "height": 450,
+              "renditions": {}
+            }
+          ]
+        },
+        "linked_items_element": {
+          "type": "modular_content",
+          "name": "Linked items element",
+          "value": [
+            "text_element_item"
+          ]
+        },
+        "rich_text_element": {
+          "type": "rich_text",
+          "name": "Rich text element",
+          "images": {
+            "11158702-ce78-4d80-bc6b-32c03d76e523": {
+              "image_id": "11158702-ce78-4d80-bc6b-32c03d76e523",
+              "description": null,
+              "url": "https://assets-eu-01.kc-usercontent.com:443/247bf4c8-ac68-01de-3477-0fd61185a73a/b955f8ca-09c5-4d43-8090-733553c31efa/Grouped2.png",
+              "width": 450,
+              "height": 450
+            }
+          },
+          "links": {
+            "4ba847a7-26e9-4ed0-9260-79afa466330b": {
+              "codename": "text_element_item",
+              "type": "text_element_item",
+              "url_slug": ""
+            }
+          },
+          "modular_content": [],
+          "value": "\u003Cp\u003EThis is a \u003Cstrong\u003ERich text element value with a \u003C/strong\u003E\u003Ca data-item-id=\u00224ba847a7-26e9-4ed0-9260-79afa466330b\u0022 href=\u0022\u0022\u003Elink to the content item\u003C/a\u003E and link \u003Ca data-asset-id=\u0022be30fbe7-3889-4e52-be38-7878648d7276\u0022 href=\u0022https://assets-eu-01.kc-usercontent.com:443/247bf4c8-ac68-01de-3477-0fd61185a73a/b9bf257d-48ab-4a91-b8e8-1686d1440062/Grouped1.png\u0022\u003Eto image\u003C/a\u003E and \u003Ca data-asset-id=\u002264937196-f7de-40ed-b568-52629a4a424f\u0022 href=\u0022https://assets-eu-01.kc-usercontent.com:443/247bf4c8-ac68-01de-3477-0fd61185a73a/32a07e1c-b59c-4580-ab10-e85064b8dff9/D%20L%20NA.txt\u0022\u003Easset\u003C/a\u003E.\u003C/p\u003E\n\u003Cp\u003EList:\u0026nbsp;\u003C/p\u003E\n\u003Cul\u003E\n  \u003Cli\u003EFirst\u003C/li\u003E\n  \u003Cli\u003ESecond\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cfigure data-asset-id=\u002211158702-ce78-4d80-bc6b-32c03d76e523\u0022 data-image-id=\u002211158702-ce78-4d80-bc6b-32c03d76e523\u0022\u003E\u003Cimg src=\u0022https://assets-eu-01.kc-usercontent.com:443/247bf4c8-ac68-01de-3477-0fd61185a73a/b955f8ca-09c5-4d43-8090-733553c31efa/Grouped2.png\u0022 data-asset-id=\u002211158702-ce78-4d80-bc6b-32c03d76e523\u0022 data-image-id=\u002211158702-ce78-4d80-bc6b-32c03d76e523\u0022 alt=\u0022\u0022\u003E\u003C/figure\u003E\n\u003Ctable\u003E\u003Ctbody\u003E\n  \u003Ctr\u003E\u003Ctd\u003ECol1\u003C/td\u003E\u003Ctd\u003ECol2\u003C/td\u003E\u003Ctd\u003ECol3\u003C/td\u003E\u003C/tr\u003E\n  \u003Ctr\u003E\u003Ctd\u003ERow1\u003C/td\u003E\u003Ctd\u003ERow2\u003C/td\u003E\u003Ctd\u003ERow3\u003C/td\u003E\u003C/tr\u003E\n\u003C/tbody\u003E\u003C/table\u003E\n\u003Cp\u003E\u003Cbr\u003E\u003C/p\u003E"
+        },
+        "subpages_element": {
+          "type": "modular_content",
+          "name": "Subpages element",
+          "value": [
+            "sample_item"
+          ]
+        },
+        "url_slug_element": {
+          "type": "url_slug",
+          "name": "URL slug element",
+          "value": "ut-tincidunt-tincidunt-erat"
+        }
+      }
+    },
+    "text_element_item": {
+      "system": {
+        "id": "4ba847a7-26e9-4ed0-9260-79afa466330b",
+        "name": "Text element item",
+        "codename": "text_element_item",
+        "language": "default",
+        "type": "text_element_item",
+        "collection": "default",
+        "sitemap_locations": [],
+        "last_modified": "2023-01-27T12:36:14.0002876Z",
+        "workflow_step": "published"
+      },
+      "elements": {
+        "text_element": {
+          "type": "text",
+          "name": "Text element",
+          "value": "Donec elit libero sodales nec."
+        }
+      }
+    }
+  }
+}
