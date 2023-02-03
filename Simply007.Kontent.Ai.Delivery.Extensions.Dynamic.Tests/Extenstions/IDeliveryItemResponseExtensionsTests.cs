@@ -54,13 +54,31 @@ namespace Simply007.Kontent.Ai.Delivery.Extensions.Dynamic
             element.Should().Be(42);
         }
 
-                [Fact]
+        [Fact]
         public async Task GetElementValue_CustomElement_ReturnsCorrectValue()
         {
             var response = await _client.GetItemAsync<object>(itemCodename);
 
             var element = response.GetElementValue<string>("custom_element");
             element.Should().Be("Test value");
+        }
+
+        [Fact]
+        public async Task GetElementValue_LinkedItems_ReturnsCorrectValue()
+        {
+            var response = await _client.GetItemAsync<object>(itemCodename);
+
+            var element = response.GetElementValue<IEnumerable<string>>("linked_items_element");
+            element.Should().BeEquivalentTo(new string[] { "text_element_item" });
+        }
+
+        [Fact]
+        public async Task GetElementValue_SubPages_ReturnsCorrectValue()
+        {
+            var response = await _client.GetItemAsync<object>(itemCodename);
+
+            var element = response.GetElementValue<IEnumerable<string>>("subpages_element");
+            element.Should().BeEquivalentTo(new string[] { "sample_item" });
         }
     }
 }
