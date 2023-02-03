@@ -112,6 +112,31 @@ namespace Simply007.Kontent.Ai.Delivery.Extensions.Dynamic
         }
 
         [Fact]
+        public async Task GetElementValue_TaxonomyElement_ReturnsCorrectValue()
+        {
+            var response = await _client.GetItemAsync<object>(itemCodename);
+
+            var element = response.GetElementValue<IEnumerable<TaxonomyTerm>>("taxonomy_element");
+            element.Should().BeEquivalentTo(new[]{
+                new TaxonomyTerm
+                {
+                    Name = "Term 1",
+                    Codename = "term_1"
+                },
+                new TaxonomyTerm
+                {
+                    Name = "Sub Term 1",
+                    Codename ="sub_term_1"
+                },
+                new TaxonomyTerm
+                {
+                    Name = "Term 2",
+                    Codename = "term_2"
+                }
+            });
+        }
+
+        [Fact]
         public async Task GetElementValue_AssetElement_ReturnsCorrectValue()
         {
             var response = await _client.GetItemAsync<object>(itemCodename);
@@ -152,5 +177,6 @@ namespace Simply007.Kontent.Ai.Delivery.Extensions.Dynamic
                 }
             });
         }
+
     }
 }
